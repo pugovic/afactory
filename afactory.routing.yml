@@ -1,0 +1,23 @@
+afactory.green_family:
+  path: 'abstract-family/green'
+  defaults:
+    _controller: '\Drupal\afactory\Controller\AFactoryController::greenFamily'
+    _title: 'Green Family'
+  requirements:
+    _access: 'TRUE'
+
+afactory.black_family:
+  path: 'abstract-family/black'
+  defaults:
+    _controller: '\Drupal\afactory\Controller\AFactoryController::blackFamily'
+    _title: 'Black Family'
+  requirements:
+    _access: 'TRUE'
+
+afactory.red_family:
+  path: 'abstract-family/red'
+  defaults:
+    _controller: '\Drupal\afactory\Controller\AFactoryController::redFamily'
+    _title: 'Red Family'
+  requirements:
+     _access: 'TRUE'

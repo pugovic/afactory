@@ -1,0 +1,23 @@
+#Опишем вкладку по умолчанию
+afactory.tabdefault:
+#Имя маршрута (путь для вкладки по умолчанию)
+  route_name: afactory.green_family
+#Родительский маршрут. Т.к. вкладка по-умолчанию, то используем тот-же маршрут
+  base_route: afactory.green_family
+  title: 'Green group'
+
+#Вторая вкладка
+afactory.tab2:
+#Маршрут для второй вкладки
+  route_name: afactory.black_family
+  title: 'Black group'
+#Родительский маршрут - указываем ИМЯ МАРШРУТА, который у нашей основной вкладки
+  base_route: afactory.green_family
+
+#Вторая вкладка
+afactory.tab3:
+#Маршрут для второй вкладки
+  route_name: afactory.red_family
+  title: 'Red group'
+#Родительский маршрут - указываем ИМЯ МАРШРУТА, который у нашей основной вкладки
+  base_route: afactory.green_family

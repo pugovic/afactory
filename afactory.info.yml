@@ -1,0 +1,12 @@
+name: Abstract Factory
+
+description: 'This module implements abstract factory pattern!'
+
+type: module
+
+core: 8.x
+
+version: 1.0
+
+package: Patterns
+configure: add_phone.admin_settings

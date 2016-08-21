@@ -1,0 +1,6 @@
+afactory.testpage:
+  title: 'Abstract Factory'
+  route_name: afactory.green_family
+  description: 'Custom afactory'
+  weight: 10
+  enabled: 1

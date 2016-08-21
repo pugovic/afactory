@@ -1,0 +1,26 @@
+font-awesome:
+  version: VERSION
+  css:
+    theme:
+      /libraries/font-awesome/css/font-awesome.min.css: {}
+
+cart:
+  version: VERSION
+  css:
+    theme:
+      css/family.css: {}
+bd:
+  version: VERSION
+  css:
+    theme:
+      css/bd.css: {}
+bootstrap:
+  version: VERSION
+  css:
+    theme:
+      /libraries/bootstrap-3.3.7-dist/css/bootstrap.min.css: {}
+bootstrap.grid:
+  version: VERSION
+  css:
+    layout:
+      /libraries/bootstrap-3.3.7-dist/css/bootstrap.grid.css: {}

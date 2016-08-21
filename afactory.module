@@ -1,0 +1,40 @@
+<?php
+
+function afactory_page_attachments_alter(&$page) {
+ // drupal_set_message('afactory_page_attachments_alter');
+  $page['#attached']['library'][] = 'afactory/font-awesome';
+ // $page['#attached']['library'][] = 'afactory/bootstrap';
+ $page['#attached']['library'][] = 'afactory/cart';
+  $page['#attached']['drupalSettings']['fluffiness']['cuddlySlider']['foo'] = 'bar';
+}
+
+function afactory_theme() {
+
+  return [
+    'cart' => [
+      'template' => 'cart',
+      'variables' => [
+        'title' => NULL,
+        'fa' => NULL,
+        'color' => NULL,
+        'items' => [],
+      ],
+    ],
+    'family' => [
+      'template' => 'family',
+      'variables' => [
+        'carts' => [],
+      ],
+    ],
+  ];
+}
+
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function afactory_preprocess_html(&$variables) {
+  if (drupal_static('afactory_static')) {
+    $variables['attributes']['class'][] = 'afactory' ;
+  }
+}

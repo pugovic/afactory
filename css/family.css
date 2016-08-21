@@ -1,0 +1,39 @@
+body.afactory ul.tabs a {
+  font-weight: 600;
+}
+body.afactory ul.tabs li:nth-child(1) a {
+  color: green;
+}
+body.afactory ul.tabs li:nth-child(2) a {
+  color: black;
+}
+body.afactory ul.tabs li:nth-child(3) a {
+  color: red;
+}
+.family-wrapper .cart .image-side,
+.family-wrapper .cart .result-side {
+  display: inline-block;
+}
+.family-wrapper .cart .image-side {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  float: left;
+}
+.family-wrapper .cart .image-side .fa {
+  display: inline-block;
+  font-size: 80px;
+}
+.family-wrapper .cart .green {
+  color: green;
+}
+.family-wrapper .cart .red {
+  color: red;
+}
+.family-wrapper .cart .black {
+  color: black;
+}
+.family-wrapper .cart .cart-header {
+  font-weight: 500;
+  font-size: 22px;
+}
